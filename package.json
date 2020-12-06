@@ -42,6 +42,12 @@
     "preprocess-test": "cssnext test/test.css build/test.css",
     "build-test": "npm run setup && npm run preprocess-test",
     "test": "npm run build-test",
-    "release": "npmpub"
+    "release": "npmpub",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
+  },
+  "snyk": true,
+  "dependencies": {
+    "snyk": "^1.434.2"
   }
 }
