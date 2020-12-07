@@ -31,7 +31,7 @@
   "devDependencies": {
     "cssnext": "^1.8.0",
     "cssrecipes-custom-media-queries": "^0.3.0",
-    "cssrecipes-defaults": "^0.4.0",
+    "cssrecipes-defaults": "^0.5.0",
     "cssrecipes-grid": "^0.4.0",
     "npmpub": "^3.0.3"
   },
